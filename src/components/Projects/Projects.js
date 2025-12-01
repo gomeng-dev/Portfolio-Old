@@ -7,6 +7,7 @@ import Tao from "../../Assets/Projects/tao.jpg";
 import Kinggod from "../../Assets/Projects/kinggod.jpg";
 import zh from "../../Assets/Projects/zh.webp";
 import excel2yaml from "../../Assets/Projects/excel2yaml.gif";
+import goddessorder from "../../Assets/Projects/goddessorder.webp";
 
 function Projects() {
   return (
@@ -31,7 +32,16 @@ function Projects() {
                 appLink="https://play.google.com/store/apps/details?id=net.kernys.aooni&hl=ko"
               />
             </Col>
-            
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={goddessorder}
+                title="가디스오더"
+                description="픽셀트라이브에서 개발한 모바일 액션 RPG로, 픽셀 그래픽과 액션이 특징입니다. 태그 액션 전투 시스템을 도입하여 3인의 기사를 활용한 협공이 가능합니다. 강철의 연금술사 콜라보 이벤트를 기획했습니다."
+                appLink="https://play.google.com/store/apps/details?id=com.kakaogames.gdod&hl=ko"
+              />
+            </Col>
+
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={excel2yaml}

@@ -15,6 +15,7 @@ import {
   SiMicrosoftvisio,
   SiMicrosoftpowerpoint,
   SiMicrosoftword,
+  SiRust,
 } from "react-icons/si";
 
 function Techstack() {
@@ -52,6 +53,15 @@ function Techstack() {
           overlay={renderTooltip("TypeScript")}
         >
           <div><SiTypescript /></div>
+        </OverlayTrigger>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger
+          placement="top"
+          delay={{ show: 250, hide: 400 }}
+          overlay={renderTooltip("Rust")}
+        >
+          <div><SiRust /></div>
         </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">

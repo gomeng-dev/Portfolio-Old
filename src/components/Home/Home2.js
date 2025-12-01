@@ -24,7 +24,7 @@ function Home2() {
             <p className="home-about-body">
               게임 업계에서 <b className="skyblue">9년</b> 동안 일해온 <b className="skyblue">시스템 기획자</b>입니다.
               <br />
-              지금은 <b className="skyblue">어썸피스의 좀비고 팀</b>에서 재미있는 시스템을 만들고 있습니다.
+              지금은 휴식하며 <b className="skyblue">구직</b>을 하고 있습니다.
               <br />
               <br />
               그동안 <b className="skyblue">시스템 기획</b>과 <b className="skyblue">UI/UX 기획</b>을 주로 해왔고,
@@ -39,7 +39,7 @@ function Home2() {
               <br />
               휴식 할 때는 직접 게임을 즐기거나, 좋아하는 모드를 한글화하는 작업을 하며 시간을 보냅니다.
               <br />
-              최근에는 Escape From Tarkov 의 싱글 모드에 빠져있어, 구버전 모드를 최신 버전으로 포팅하는 작업을 하고 있습니다.
+              이전에는 Escape From Tarkov 의 싱글 모드에 빠져있어, 구버전 모드를 최신 버전으로 포팅하는 작업을 했었으나, 최근에는 Ghost of Yotei 를 즐겨 플레이하고 있습니다.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

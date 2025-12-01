@@ -21,6 +21,55 @@ function Career() {
             그동안의 직장 경력 및 프로젝트 이력입니다.
           </p>
 
+          {/* 픽셀트라이브 */}
+          <div className="notion-entry mb-5 enhanced-notion-entry">
+            <div className="notion-entry-header">
+              <div className="notion-entry-title" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                  <FaBuilding className="company-icon" style={{ fontSize: '1.5rem', marginRight: '10px' }} />
+                  <h2 className="mb-0">
+                    <span className="company-name">㈜ 픽셀트라이브</span>
+                  </h2>
+                </div>
+                <span className="notion-period">
+                  <FaCalendarAlt className="me-2" /> 2025.09 - 2025.11
+                </span>
+              </div>
+              <h3 className="notion-role mb-4">시스템 기획</h3>
+            </div>
+
+            <div className="notion-projects">
+              <h4 className="notion-subtitle mb-4 skyblue">주요 프로젝트</h4>
+
+              <div className="notion-project mb-4">
+                <div className="notion-project-header">
+                  <div className="notion-project-title">
+                    <FaGamepad className="me-2 project-icon" />
+                    <h5 className="mb-0">가디스오더</h5>
+                  </div>
+                  <div className="notion-button-container">
+                    <Button
+                      variant="success"
+                      href="https://play.google.com/store/apps/details?id=com.kakaogames.gdod&hl=ko"
+                      target="_blank"
+                      className="notion-button"
+                      size="sm"
+                    >
+                      <SiGoogleplay className="me-2" /> 플레이스토어
+                    </Button>
+                  </div>
+                </div>
+                <ul className="notion-list mt-3">
+                  <li>이벤트 시스템</li>
+                  <li>강철의 연금술사 콜라보 기획</li>
+                </ul>
+                {/* <div className="mt-3">
+                  <span className="notion-highlight" style={{ color: '#ff6b6b' }}>※ 회사 파산으로 인한 정리해고</span>
+                </div> */}
+              </div>
+            </div>
+          </div>
+
           {/* 어썸피스 */}
           <div className="notion-entry mb-5 enhanced-notion-entry">
             <div className="notion-entry-header">
@@ -32,7 +81,7 @@ function Career() {
                   </h2>
                 </div>
                 <span className="notion-period">
-                  <FaCalendarAlt className="me-2" /> 2022.05 - 재직 중
+                  <FaCalendarAlt className="me-2" /> 2022.05 - 2025.09
                 </span>
               </div>
               <h3 className="notion-role mb-4">시스템 기획 & PM & 모드 기획</h3>
@@ -81,7 +130,7 @@ function Career() {
                 <div className="notion-project-header">
                   <div className="notion-project-title">
                     <FaGamepad className="me-2 project-icon" />
-                    <h5 className="mb-0">좀비고등학교 (2024.11 ~ 재직 중)</h5>
+                    <h5 className="mb-0">좀비고등학교 (2024.11 ~ 2025.09)</h5>
                   </div>
                   <div className="notion-button-container">
                     <Button 

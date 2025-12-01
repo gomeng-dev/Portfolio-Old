@@ -10,6 +10,7 @@ import boguSystemDoc from "../../Assets/킹갓캐슬-보구시스템.pdf";
 import Lunia from "../../Assets/Projects/Lunia.jpg";
 import Kinggod from "../../Assets/Projects/kinggod.jpg";
 import excel2yaml from "../../Assets/Projects/excel2yaml.gif";
+import godatatool from "../../Assets/Projects/godatatool.gif";
 
 function Portfolio() {
   // 설명 텍스트에 개행 적용을 위한 함수
@@ -100,9 +101,31 @@ function Portfolio() {
                   <Card.Text style={{ textAlign: "justify" }}>
                     {renderDescription("엑셀 파일을 YAML 파일로 변환하는 툴입니다.\n엑셀 파일의 데이터를 쉽게 YAML 파일로 변환할 수 있도록 돕습니다.")}
                   </Card.Text>
-                  <Button 
-                    variant="primary" 
+                  <Button
+                    variant="primary"
                     href="https://github.com/gomeng-dev/Excel2Yaml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <BsGithub /> &nbsp;
+                    GitHub
+                  </Button>
+
+                </Card.Body>
+              </Card>
+            </Col>
+
+            <Col md={6} lg={6} className="portfolio-card">
+              <Card className="portfolio-card-view">
+                <Card.Img variant="top" src={godatatool} alt="GODataTool" className="portfolio-card-img" />
+                <Card.Body>
+                  <Card.Title>업무용 툴-GODataTool</Card.Title>
+                  <Card.Text style={{ textAlign: "justify" }}>
+                    {renderDescription("게임 데이터 편집 및 탐색을 위한 통합 관리 솔루션입니다.\nCSV 파일을 직관적으로 편집하고, 데이터 간 참조 관계를 추적하며, Rust 기반 고성능 인덱싱으로 대규모 데이터셋을 빠르게 처리합니다.")}
+                  </Card.Text>
+                  <Button
+                    variant="primary"
+                    href="https://github.com/gomeng-dev/GODataTool"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
